@@ -54,3 +54,4 @@ interface ITest {
 let TestTow = { props1: 12 } as ITest;
 let TestThree = {  } as ITest;
 let shadiao = 'lijin'
+let me = '闫君泽'
