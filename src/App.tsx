@@ -1,6 +1,7 @@
 import * as React from "react";
 import "./App.css";
 import Demo from "./compoments/demoOne";
+import Pure from './compoments/pureJs';
 import logo from "./logo.svg";
 
 class App extends React.Component {
@@ -8,6 +9,7 @@ class App extends React.Component {
         return (
             <div className="App">
                 <Demo />
+                <Pure />
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <h1 className="App-title">Welcome to React</h1>
