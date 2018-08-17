@@ -6,7 +6,7 @@ interface IclassInterface {
 class Demo extends React.Component implements IclassInterface {
     public name:string = '234';
     public render() {
-        return <div className="App">我是demo</div>;
+        return <div>我是demo</div>;
     }
     public componentDidMount() {
         console.log(this.name); 

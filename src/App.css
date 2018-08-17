@@ -1,28 +1,40 @@
+body {
+    background: linear-gradient(to bottom, #2b83bb 0, #4d9dd0 100%) fixed;
+}
 .App {
-  text-align: center;
+    text-align: center;
+    min-height: 900px;
+    background: url(./images/main_bk.png) repeat-y;
+    background-size: 100%;
+    /* background-size: cover; */
+    background-position: center top;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .App-intro {
-  font-size: large;
+    font-size: large;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
