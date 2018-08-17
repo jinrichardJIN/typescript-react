@@ -14,6 +14,10 @@
       ]
     },
     "only-arrow-functions":[true,"allow-declarations","allow-named-functions"],
-    "max-classes-per-file":[true,5]
+    "max-classes-per-file":[true,5],
+    "ordered-imports":[true,{
+      "import-sources-order":"any",
+      "named-imports-order":"any"
+    }]
   }
 }

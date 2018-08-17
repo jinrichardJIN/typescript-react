@@ -38,13 +38,19 @@ function getServedPath(appPackageJson) {
   return ensureSlash(servedUrl, true);
 }
 
+const entryJs = [
+  resolveApp('src/pages/index.tsx'),
+  resolveApp('src/pages/other.js')
+]
+
 // config after eject: we're in ./config/
 module.exports = {
   dotenv: resolveApp('.env'),
   appBuild: resolveApp('build'),
   appPublic: resolveApp('public'),
   appHtml: resolveApp('public/index.html'),
-  appIndexJs: resolveApp('src/index.tsx'),
+  appIndexJs: entryJs[0],
+  otherJs:entryJs[1],
   appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
   yarnLockFile: resolveApp('yarn.lock'),
