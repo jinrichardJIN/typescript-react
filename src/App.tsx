@@ -1,15 +1,15 @@
 import * as React from "react";
 import "./App.css";
-import Demo from "./compoments/demoOne";
-import Pure from './compoments/pureJs';
-import Router from './router';
+// import Demo from "./compoments/demoOne";
+// import Pure from "./compoments/pureJs";
+import Router from "./router";
 class App extends React.Component {
     public render() {
         return (
             <div className="App">
-                <Demo />
-                <Pure />
-                <Router />
+                <div className="wrap" >
+                    <Router />
+                </div>
             </div>
         );
     }

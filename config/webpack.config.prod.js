@@ -283,7 +283,7 @@ module.exports = {
             inject: true,
             template: paths.appHtml,
             chunks: ["other"],
-            filename: "admin.html",
+            filename: "admin/admin.html",
             minify: {
                 removeComments: true,
                 collapseWhitespace: true,
