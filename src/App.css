@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
-    background: url('./images/cloud.png');
+    /* background: url('./images/cloud.png'); */
 }
 .App {
     text-align: center;
@@ -28,15 +28,7 @@ body {
 .App-intro {
     font-size: large;
 }
-.App .wrap{
-    width: 300px;
-    position: absolute;
-    width: 320px;
-    top: 50%;
-    left: 50%;
-    margin-left: -150px;
-    margin-top: -150px;
-}
+
 
 @keyframes App-logo-spin {
     from {

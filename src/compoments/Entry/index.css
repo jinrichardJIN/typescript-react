@@ -1,3 +1,12 @@
+.App .Entry{
+    width: 300px;
+    position: absolute;
+    width: 320px;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
 .Entry a{
     color: #999;
     margin-top: 10px;
